@@ -147,3 +147,23 @@ footer p{
     color:#D9DBE1;
     line-height: 1.8rem;
 }
+
+/* small-devices-responsive */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .hero-container{
+        flex-direction: column;
+        max-width: 70%;
+    }
+    .hero-container h1{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .hero-container p{
+        font-size: 1rem;
+        width: 100%;
+    }
+}
