@@ -211,4 +211,11 @@ footer p{
         margin-top: 30px;
         display: block;
     }
+    footer h3{
+        font-size: 1.5rem;
+    }
+    footer p{
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
 }
