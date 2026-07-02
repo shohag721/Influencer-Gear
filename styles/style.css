@@ -155,15 +155,60 @@ footer p{
         flex-wrap: wrap;
     }
     .hero-container{
-        flex-direction: column;
-        max-width: 70%;
+        flex-direction:column-reverse;
+        max-width: 90%;
     }
     .hero-container h1{
-        font-size: 1.9rem;
+        margin: 0 auto;
+        font-size: 1.3rem;
         text-align: center;
     }
     .hero-container p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         width: 100%;
+        margin: 20px auto;
+    }
+    .hero-container button{
+        margin: 0 22%;
+        display: block;
+    }
+    .hero-image img{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .sponsor-content .images-content {
+        width: 80%;
+        grid-template-columns:repeat(4, 1fr);
+    }
+    .collection-card{
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .future-prodducts{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .future-prodducts .images img{
+        width: 100%;
+    }
+    .future-detail{
+        width: 100%;
+        margin-left: 0;
+    }
+    .future-detail h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .future-detail p{
+        width: 100%;
+        margin-top: 15px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .future-detail button{
+        margin: 0 auto;
+        margin-top: 30px;
+        display: block;
     }
 }
