@@ -45,6 +45,9 @@
 }
 
 /* naveber section */
+header{
+    margin-top: 30px;
+}
 .nav-title{
     font-size: 1.5rem;
     font-weight: 700;
@@ -74,9 +77,10 @@
     font-weight: 500;
     width: 505px;
 }
-.hero-container button{
+.hero-content button{
     display:block;
     margin:30px 0px;
+    font-weight: 400;
 }
 
 .hero-image{
@@ -107,11 +111,42 @@
 }
 .popular-head{
     text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.popular-collection p{
+    margin-top: 40px;
+    margin-right: 130px;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#E02C6D;
+
 }
 .card-info{
-    border:none;
-    border-radius: 12px;
-    box-shadow: 1px 10px 50px 2px #ffffff;
+    padding: 15px;
+}
+.card-info h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.card-info h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.card-info h4{
+    font-size: 0.98rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.card-info p{
+    font-size: 0.98rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+    color:#787885;
 }
 
 .card-info img{
@@ -148,6 +183,7 @@
     background-color: #E02C6D;
     color: #ffffff;
     border:none;
+    font-weight: 600;
 }
 /* footer sction styles */
 footer{
