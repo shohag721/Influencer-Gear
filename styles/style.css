@@ -102,8 +102,20 @@
 .popular-collection{
     margin:0 auto;
 }
+.popular-collection h2{
+    margin-bottom: 30px;
+}
 .popular-head{
     text-align: center;
+}
+.card-info{
+    border:none;
+    border-radius: 12px;
+    box-shadow: 1px 10px 50px 2px #ffffff;
+}
+
+.card-info img{
+    width:100%;
 }
 .collection-card{
     width: 100%;
@@ -113,14 +125,12 @@
     box-shadow: 1px 10px 50px 2px #ffffff;
     display: grid;
     grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
 }
 /* Future Products Section */
 .future-detail{
     width: 70%;
     margin-left: 50px;
-}
-.card-info img{
-    width:100%;
 }
 .future-detail h2{
     font-size: 2.5rem;
