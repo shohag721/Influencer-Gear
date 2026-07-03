@@ -74,6 +74,9 @@
     font-weight: 500;
     width: 505px;
 }
+.hero-content button{
+    margin-top: 40px;
+}
 
 .hero-image{
     margin-left: 45px;
@@ -151,6 +154,8 @@ footer p{
 /* small-devices-responsive */
 @media screen and (max-width:576px) {
     nav{
+        width: 70%;
+        margin: 0 auto;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -166,7 +171,7 @@ footer p{
     .hero-container p{
         font-size: 0.8rem;
         width: 100%;
-        margin: 20px auto;
+        margin: 20px 0;
     }
     .hero-container button{
         margin: 0 22%;
@@ -178,9 +183,9 @@ footer p{
         background-position: center;
         background-size: contain;
     }
-    .sponsor-content .images-content {
-        width: 80%;
-        grid-template-columns:repeat(4, 1fr);
+.images-content{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
     .collection-card{
         grid-template-columns:repeat(1, 1fr);
